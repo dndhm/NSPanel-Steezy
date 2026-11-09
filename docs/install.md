@@ -19,7 +19,7 @@ Let’s embark on this journey together to create a smart home that’s uniquely
 > Some images or instructions on this guide might be slightly different due to different configurations depending on your ESPHome and Home Assistant implementation or versions.
 >
 > If you find something that is not understandable or needs to be updated, please let us know.
-> You can create an issue reporting this, or fix it yourself and submit a [Pull Request](https://github.com/edwardtfn/NSPanel-Easy/pulls) to this repository.
+> You can create an issue reporting this, or fix it yourself and submit a [Pull Request](https://github.com/dndhm/NSPanel-Steezy/pulls) to this repository.
 <!-- markdownlint-enable MD028 -->
 
 ## Summary
@@ -135,7 +135,7 @@ Follow these steps to add a new device in the ESPHome Dashboard:
    # Core and optional configurations
    packages:
      remote_package:
-       url: https://github.com/edwardtfn/NSPanel-Easy
+       url: https://github.com/dndhm/NSPanel-Steezy
        ref: latest
        refresh: 300s
        files:
@@ -359,7 +359,7 @@ To update a running panel to the latest version, follow [Update NSPanel Easy](ho
 #### Other
 
 Please try the standard process and if you find any issue,
-please [create a new issue](https://github.com/edwardtfn/NSPanel-Easy/issues) and inform
+please [create a new issue](https://github.com/dndhm/NSPanel-Steezy/issues) and inform
 which custom firmware you have installed before migrating to NSPanel HA Blueprint.
 
 ## Upload TFT
@@ -434,7 +434,7 @@ If you have any questions or need clarification, please reach out to us.
 
 Importing the blueprint into Home Assistant is a simple process. Just click the button below and follow the steps:
 <!-- markdownlint-disable MD013 -->
-[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fraw.githubusercontent.com%2Fedwardtfn%2FNSPanel-Easy%2Frefs%2Ftags%2Flatest%2Fnspanel_easy_blueprint.yaml)
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fraw.githubusercontent.com%2Fdndhm%2FNSPanel-Steezy%2Frefs%2Ftags%2Flatest%2Fnspanel_easy_blueprint.yaml)
 <!-- markdownlint-enable MD013 -->
 
 ### Creating an Automation
@@ -486,7 +486,7 @@ For homes with multiple panels:
 > Customizations and advanced mode are not supported by this project's team. Use them with caution and only if you have the necessary expertise.
 
 Before customizing your system, we encourage you to share any enhancements you make.
-Consider creating a [Pull Request](https://github.com/edwardtfn/NSPanel-Easy/pulls) to the `dev` branch to share your discoveries with the community.
+Consider creating a [Pull Request](https://github.com/dndhm/NSPanel-Steezy/pulls) to the `dev` branch to share your discoveries with the community.
 
 ### Understanding Package Organization and Memory Management
 
@@ -541,7 +541,7 @@ substitutions:
 
 packages:
   remote_package:
-    url: https://github.com/edwardtfn/NSPanel-Easy
+    url: https://github.com/dndhm/NSPanel-Steezy
     ref: latest
     refresh: 300s
     files:
@@ -759,7 +759,7 @@ while maintaining system stability and functionality.
 > [!TIP]
 > For troubleshooting TFT transfer issues, consult our [TFT Transfer Troubleshooting Guide](tft_upload.md) first.
 
-If problems persist after troubleshooting, visit the [Issues](https://github.com/edwardtfn/NSPanel-Easy/issues) page.
+If problems persist after troubleshooting, visit the [Issues](https://github.com/dndhm/NSPanel-Steezy/issues) page.
 Feel free to create a new issue for personalized assistance, providing details such as:
 
 1. A description or picture of what is displayed on your screen.

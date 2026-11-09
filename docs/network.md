@@ -205,7 +205,7 @@ but the TFT file is downloaded by the panel itself and transferred to the displa
 By default, the TFT file is downloaded from the project repository on GitHub:
 
 ```text
-https://raw.githubusercontent.com/edwardtfn/NSPanel-Easy/v<version>/hmi/nspanel_<model>.tft
+https://raw.githubusercontent.com/dndhm/NSPanel-Steezy/v<version>/hmi/nspanel_<model>.tft
 ```
 
 Where `<version>` is the firmware version and `<model>` is `landscape`, `portrait` or `blank`, according to the model
@@ -272,7 +272,7 @@ Choose one of the options below:
 - **Allow access only during updates:** keep the panel blocked and open the [firewall rules](#firewall-rules) for the
   internet only while a firmware update (and the following TFT update) is running.
 - **Serve the TFT files locally:** download the TFT files matching your firmware version from the
-  [`hmi`](https://github.com/edwardtfn/NSPanel-Easy/tree/latest/hmi) folder, copy them to a local web server (for example,
+  [`hmi`](https://github.com/dndhm/NSPanel-Steezy/tree/latest/hmi) folder, copy them to a local web server (for example,
   the `www` folder of Home Assistant, served as `/local/`), and set `nextion_update_base_url` to that folder. The model
   selection and the automatic updates keep working, but the URL does not include the version: replace the files in
   that folder with the ones matching your firmware version on every release, before updating the firmware. See

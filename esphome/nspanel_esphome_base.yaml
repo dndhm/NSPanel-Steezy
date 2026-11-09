@@ -20,7 +20,7 @@ substitutions:
   name: ${device_name}
   project_tag: nspanel_easy
   TAG_BASE: nspanel.base
-  ref_url: https://github.com/edwardtfn/NSPanel-Easy
+  ref_url: https://github.com/dndhm/NSPanel-Steezy
   ref_name: v${version}
 
 button:

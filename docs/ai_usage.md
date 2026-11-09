@@ -37,9 +37,9 @@ Content you post publicly here (text, logs, configuration) may be shared with an
 analyzing it. Never post secrets such as API keys, passwords, Wi-Fi credentials, or tokens.
 Redact them before sharing logs or YAML.
 
-Private vulnerability reports, submitted as described in the [Security Policy](https://github.com/edwardtfn/NSPanel-Easy/security/policy), are never shared with AI tools.
+Private vulnerability reports, submitted as described in the [Security Policy](https://github.com/dndhm/NSPanel-Steezy/security/policy), are never shared with AI tools.
 
 ## Contributions Using AI
 
 AI-assisted contributions are welcome. You are expected to understand, test, and stand behind the code you submit.
-See [CONTRIBUTING.md](https://github.com/edwardtfn/NSPanel-Easy/blob/main/CONTRIBUTING.md) for the general contribution guidelines.
+See [CONTRIBUTING.md](https://github.com/dndhm/NSPanel-Steezy/blob/main/CONTRIBUTING.md) for the general contribution guidelines.

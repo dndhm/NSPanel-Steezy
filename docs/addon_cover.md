@@ -53,7 +53,7 @@ substitutions:
 # Basic and optional configurations
 packages:
   remote_package:
-    url: https://github.com/edwardtfn/NSPanel-Easy
+    url: https://github.com/dndhm/NSPanel-Steezy
     ref: latest
     refresh: 300s
     files:

@@ -10,7 +10,7 @@
 ---
 substitutions:
   ################## Defaults ##################
-  nextion_update_base_url: "https://raw.githubusercontent.com/edwardtfn/NSPanel-Easy/v${version}/hmi"
+  nextion_update_base_url: "https://raw.githubusercontent.com/dndhm/NSPanel-Steezy/v${version}/hmi"
   nextion_update_url: ""
   upload_tft_automatically: true
   upload_tft_wait_ms_after_setup: 65432  # 65sec - To avoid triggering a reboot before boot is flagged as good

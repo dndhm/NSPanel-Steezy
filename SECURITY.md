@@ -11,7 +11,7 @@ To stay protected, keep all components (ESPHome firmware, TFT file, and Blueprin
 Do not report security vulnerabilities through public issues, discussions, or Discord.
 
 Report them privately using GitHub's
-[private vulnerability reporting](https://github.com/edwardtfn/NSPanel-Easy/security/advisories/new).
+[private vulnerability reporting](https://github.com/dndhm/NSPanel-Steezy/security/advisories/new).
 Please include:
 
 - A description of the vulnerability and its impact

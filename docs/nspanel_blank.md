@@ -42,7 +42,7 @@ Double-check this selection to avoid flashing the wrong region.
 We have a useful guide for [troubleshooting TFT transfer issues](tft_upload.md).
 Please take a look there first.
 
-After troubleshooting, if issues persist, consult the [Issues](https://github.com/edwardtfn/NSPanel-Easy/issues)
+After troubleshooting, if issues persist, consult the [Issues](https://github.com/dndhm/NSPanel-Steezy/issues)
 and feel free to create a new one asking for more personalized assistance.
 
 Please share as much info as possible, like:

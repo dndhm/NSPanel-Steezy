@@ -202,7 +202,7 @@ There are many options available for free to run under your local Windows, macOS
 
 ## Additional Tips and Resources
 
-After troubleshooting, if issues persist, consult the [Issues](https://github.com/edwardtfn/NSPanel-Easy/issues) and please open a new issue for tailored help.
+After troubleshooting, if issues persist, consult the [Issues](https://github.com/dndhm/NSPanel-Steezy/issues) and please open a new issue for tailored help.
 
 Please share as much info as possible, like:
 

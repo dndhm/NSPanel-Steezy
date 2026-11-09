@@ -7505,7 +7505,7 @@ actions:
             2. Confirm the panel is online and connected to Home Assistant.
 
             3. If the panel is online and the correct device is selected, please
-            [report this issue](https://github.com/edwardtfn/NSPanel-Easy/issues/new/choose),
+            [report this issue](https://github.com/dndhm/NSPanel-Steezy/issues/new/choose),
             including the reported firmware version shown above.
             {% else %}
             {% if esphome_api_outdated %}
@@ -7545,7 +7545,7 @@ actions:
             This notification clears itself once everything is up to date.
 
             *For more detailed instructions, please refer to the online documentation:
-            [How to Update the Firmware](https://github.com/edwardtfn/NSPanel-Easy/blob/main/docs/howto.md#update-esphome).*
+            [How to Update the Firmware](https://github.com/dndhm/NSPanel-Steezy/blob/main/docs/howto.md#update-esphome).*
             {% endif %}
         continue_on_error: true
       - alias: Custom action - ESPHome firmware outdated
@@ -7596,7 +7596,7 @@ actions:
 
 
             *For more detailed instructions, please refer to the online documentation:
-            [How to Update Blueprint](https://github.com/edwardtfn/NSPanel-Easy/blob/main/docs/howto.md#update-blueprint).*
+            [How to Update Blueprint](https://github.com/dndhm/NSPanel-Steezy/blob/main/docs/howto.md#update-blueprint).*
         continue_on_error: true
       - alias: Custom action - Blueprint outdated
         # Runs once per panel boot, on the version event, as in the version mismatch handler.
@@ -13814,7 +13814,7 @@ actions:
                                   - Expected Blueprint version: {{ versions.blueprint_min if versions.blueprint_min | length > 0 else "Unknown" }}
 
 
-                                Troubleshooting steps and more information are available in the online documentation: [Panel startup issues - Blueprint is not detected](https://github.com/edwardtfn/NSPanel-Easy/blob/main/docs/error_initializing.md#blueprint-is-not-detected).
+                                Troubleshooting steps and more information are available in the online documentation: [Panel startup issues - Blueprint is not detected](https://github.com/dndhm/NSPanel-Steezy/blob/main/docs/error_initializing.md#blueprint-is-not-detected).
                             continue_on_error: true
 
                       - alias: Blueprint version mismatch
@@ -13860,7 +13860,7 @@ actions:
                                 5. Select the "**Re-import**" button.
 
 
-                                *For more detailed instructions, please refer to the online documentation: [How to Update Blueprint](https://github.com/edwardtfn/NSPanel-Easy/blob/main/docs/howto.md#update-blueprint).*
+                                *For more detailed instructions, please refer to the online documentation: [How to Update Blueprint](https://github.com/dndhm/NSPanel-Steezy/blob/main/docs/howto.md#update-blueprint).*
                             continue_on_error: true
                           - alias: Custom action - Blueprint outdated
                             sequence: !input versioning_blueprint_outdated_action
@@ -13892,7 +13892,7 @@ actions:
                                         ---
 
                                         To resolve this issue, please flash your device including the add-on Upload TFT.
-                                        For instructions, please [click here](https://github.com/edwardtfn/NSPanel-Easy/blob/main/docs/addon_upload_tft.md).
+                                        For instructions, please [click here](https://github.com/dndhm/NSPanel-Steezy/blob/main/docs/addon_upload_tft.md).
                                     continue_on_error: true
                               - alias: TFT Upload auto-upload enabled
                                 conditions:
@@ -13923,7 +13923,7 @@ actions:
                                         to start the update immediately.
 
                                         If this message persists after the update completes,
-                                        please report an [issue on GitHub](https://github.com/edwardtfn/NSPanel-Easy/issues).
+                                        please report an [issue on GitHub](https://github.com/dndhm/NSPanel-Steezy/issues).
                                     continue_on_error: true
                             default:
                               - action: persistent_notification.create
@@ -13951,7 +13951,7 @@ actions:
 
 
                                     *For more detailed instructions, please refer to the online documentation:
-                                    [How to Update TFT](https://github.com/edwardtfn/NSPanel-Easy/blob/main/docs/howto.md#update-tft).*
+                                    [How to Update TFT](https://github.com/dndhm/NSPanel-Steezy/blob/main/docs/howto.md#update-tft).*
                                 continue_on_error: true
                           - alias: Custom action - TFT outdated
                             sequence: !input versioning_tft_outdated_action

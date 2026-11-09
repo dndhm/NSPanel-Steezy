@@ -134,7 +134,7 @@ Change it to:
 ```yaml
 packages:
   remote_package:
-    url: https://github.com/edwardtfn/NSPanel-Easy
+    url: https://github.com/dndhm/NSPanel-Steezy
     ref: latest
     refresh: 300s
     files:
@@ -154,7 +154,7 @@ packages:
 | `language` | Selected via Blueprint dropdown | Set as `language: xx` substitution in ESPHome YAML - see [Localization](localization.md) |
 | `nextion_update_url` | Used to select the TFT model or override the URL | Now a full override only. Remove it unless you are hosting a custom TFT file locally |
 | `upload_tft` / `wake_up` API actions | Registered by default | Opt-in — add `include_action_upload_tft: true` and/or `include_action_wake_up: true` to your substitutions if needed |
-| `url` | `https://github.com/Blackymas/NSPanel_HA_Blueprint` | `https://github.com/edwardtfn/NSPanel-Easy` |
+| `url` | `https://github.com/Blackymas/NSPanel_HA_Blueprint` | `https://github.com/dndhm/NSPanel-Steezy` |
 | `ref` | `main` (or a specific version) | `latest` |
 | Add-on file paths | Root level (e.g. `nspanel_esphome_addon_climate_heat.yaml`) | Inside `esphome/` folder (e.g. `esphome/nspanel_esphome_addon_climate_heat.yaml`) |
 | Base package | `nspanel_esphome.yaml` | `nspanel_esphome.yaml` *(no change)* |
@@ -190,7 +190,7 @@ substitutions:
 # Packages
 packages:
   remote_package:
-    url: https://github.com/edwardtfn/NSPanel-Easy
+    url: https://github.com/dndhm/NSPanel-Steezy
     ref: latest
     refresh: 300s
     files:
@@ -234,7 +234,7 @@ First, import the NSPanel Easy Blueprint into Home Assistant.
 Click the button below to do it directly:
 
 <!-- markdownlint-disable MD013 -->
-[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fraw.githubusercontent.com%2Fedwardtfn%2FNSPanel-Easy%2Frefs%2Ftags%2Flatest%2Fnspanel_easy_blueprint.yaml)
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fraw.githubusercontent.com%2Fdndhm%2FNSPanel-Steezy%2Frefs%2Ftags%2Flatest%2Fnspanel_easy_blueprint.yaml)
 <!-- markdownlint-enable MD013 -->
 
 Alternatively, you can import it manually:
@@ -245,7 +245,7 @@ Alternatively, you can import it manually:
 3. Paste this URL:
 
    ```text
-   https://raw.githubusercontent.com/edwardtfn/NSPanel-Easy/refs/tags/latest/nspanel_easy_blueprint.yaml
+   https://raw.githubusercontent.com/dndhm/NSPanel-Steezy/refs/tags/latest/nspanel_easy_blueprint.yaml
    ```
 
 4. Click **Preview Blueprint** and then **Import Blueprint**.
@@ -369,7 +369,7 @@ and you'll now receive updates from the new repository.
 - **Join the community** on [Discord](https://discord.gg/KyVPd33znv)
   if you need help or want to share your setup.
 - **Report issues or request features** on
-  [GitHub](https://github.com/edwardtfn/NSPanel-Easy/issues).
+  [GitHub](https://github.com/dndhm/NSPanel-Steezy/issues).
 
 ---
 
@@ -379,7 +379,7 @@ and you'll now receive updates from the new repository.
 
 Double-check that:
 
-- The `url` is exactly `https://github.com/edwardtfn/NSPanel-Easy`
+- The `url` is exactly `https://github.com/dndhm/NSPanel-Steezy`
 - The `ref` is `latest` (not a version tag from the old repository).
   After this first migration install, you'll be able to use version tags
   in the same format (e.g. `ref: v5.0.0`) once NSPanel Easy publishes releases.

@@ -8,7 +8,7 @@ This page indexes every guide available for the project — setup, add-ons,
 reference material, and troubleshooting.
 
 For a high-level overview of the project, see the
-[main README](https://github.com/edwardtfn/NSPanel-Easy/blob/main/README.md).
+[main README](https://github.com/dndhm/NSPanel-Steezy/blob/main/README.md).
 
 ## Start Here
 
@@ -92,7 +92,7 @@ Optional packages that extend the base firmware:
 
 - **Discord** — [discord.gg/KyVPd33znv](https://discord.gg/KyVPd33znv) is the
   fastest channel for questions, discussion, and sharing your setup.
-- **GitHub Issues** — [bug reports and feature requests](https://github.com/edwardtfn/NSPanel-Easy/issues).
+- **GitHub Issues** — [bug reports and feature requests](https://github.com/dndhm/NSPanel-Steezy/issues).
 - **Home Assistant Community forum** — [NSPanel Easy thread](https://community.home-assistant.io/t/nspanel-easy-blueprint-configured-nspanel-customization/1005033)
   for longer-form discussion.
 - **AI usage** — [How AI Is Used in This Project](ai_usage.md) explains what is
@@ -101,15 +101,15 @@ Optional packages that extend the base firmware:
 ## Contributing
 
 Contributions of all kinds are welcome — code, documentation, translations, and
-testing. See [CONTRIBUTING.md](https://github.com/edwardtfn/NSPanel-Easy/blob/main/CONTRIBUTING.md)
+testing. See [CONTRIBUTING.md](https://github.com/dndhm/NSPanel-Steezy/blob/main/CONTRIBUTING.md)
 for guidelines, branching conventions, and how to run the local linters.
 All community spaces follow the
-[Code of Conduct](https://github.com/edwardtfn/NSPanel-Easy?tab=coc-ov-file), and security
+[Code of Conduct](https://github.com/dndhm/NSPanel-Steezy?tab=coc-ov-file), and security
 vulnerabilities must be reported privately, as described in the
-[Security Policy](https://github.com/edwardtfn/NSPanel-Easy/security/policy).
+[Security Policy](https://github.com/dndhm/NSPanel-Steezy/security/policy).
 
 Not a developer? You can still help by improving the docs, translating
-strings, testing open [pull requests](https://github.com/edwardtfn/NSPanel-Easy/pulls),
+strings, testing open [pull requests](https://github.com/dndhm/NSPanel-Steezy/pulls),
 or sharing your setup with the community.
 
 ## Setup and Overview Videos

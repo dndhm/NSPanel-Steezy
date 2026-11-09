@@ -11,7 +11,7 @@ your panel is on with the same automation you use for your lights.
 ```yaml
 packages:
   remote_package:
-    url: https://github.com/edwardtfn/NSPanel-Easy
+    url: https://github.com/dndhm/NSPanel-Steezy
     ref: latest
     refresh: 300s
     files:

@@ -112,7 +112,7 @@ script:
               ESP_LOGE("${TAG_VERSIONING}", "4. Choose 'Re-import blueprint'");
               ESP_LOGE("${TAG_VERSIONING}", "5. Click the 'Re-import' button");
               ESP_LOGE("${TAG_VERSIONING}", "For more detailed instructions, please refer to the online documentation:");
-              ESP_LOGE("${TAG_VERSIONING}", "https://github.com/edwardtfn/NSPanel-Easy/blob/main/docs/howto.md#update-blueprint");
+              ESP_LOGE("${TAG_VERSIONING}", "https://github.com/dndhm/NSPanel-Steezy/blob/main/docs/howto.md#update-blueprint");
             }
           }
           if (!tft_ver_gte(version_tft->state, "${min_tft_version}")) {

@@ -38,7 +38,7 @@ substitutions:
 # Basic and optional configurations
 packages:
   remote_package:
-    url: https://github.com/edwardtfn/NSPanel-Easy
+    url: https://github.com/dndhm/NSPanel-Steezy
     ref: latest
     refresh: 300s
     files:
@@ -121,7 +121,7 @@ substitutions:
   wakeup_with_button_press: true
 packages:
   remote_package:
-    url: https://github.com/edwardtfn/NSPanel-Easy
+    url: https://github.com/dndhm/NSPanel-Steezy
     files:
       - nspanel_esphome.yaml # Base package
       - esphome/nspanel_esphome_addon_display_light.yaml
@@ -140,7 +140,7 @@ substitutions:
   climate_backup_delay: "3"
 packages:
   remote_package:
-    url: https://github.com/edwardtfn/NSPanel-Easy
+    url: https://github.com/dndhm/NSPanel-Steezy
     files:
       - nspanel_esphome.yaml # Base package
       - esphome/nspanel_esphome_addon_display_light.yaml
@@ -173,7 +173,7 @@ esp32_ble_tracker:
     window: 5ms
 packages:
   remote_package:
-    url: https://github.com/edwardtfn/NSPanel-Easy
+    url: https://github.com/dndhm/NSPanel-Steezy
     files:
       - nspanel_esphome.yaml # Base package
       - esphome/nspanel_esphome_addon_display_light.yaml

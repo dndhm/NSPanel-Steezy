@@ -89,7 +89,7 @@ After changing the language, you must recompile and flash your panel for the cha
 
 ### Missing Your Language?
 
-If your language is not listed, please [open a feature request](https://github.com/edwardtfn/NSPanel-Easy/issues/new)
+If your language is not listed, please [open a feature request](https://github.com/dndhm/NSPanel-Steezy/issues/new)
 and it will be added in a future release.
 
 ## Temperature Unit

@@ -22,7 +22,7 @@ packages:
   climate_heat: !include ../esphome/nspanel_esphome_addon_climate_heat.yaml
 
 dashboard_import:
-  package_import_url: github://edwardtfn/NSPanel-Easy/prebuilt/wall_display.yaml@main
+  package_import_url: github://dndhm/NSPanel-Steezy/prebuilt/wall_display.yaml@main
   import_full_config: false
 
 esphome:
@@ -32,9 +32,9 @@ esphome:
     - -D NSPANEL_EASY_PREBUILT_WALL_DISPLAY
 text:
   - id: !extend fw_url
-    initial_value: "https://github.com/edwardtfn/NSPanel-Easy/raw/refs/tags/latest/prebuilt/wall_display.bin"
+    initial_value: "https://github.com/dndhm/NSPanel-Steezy/raw/refs/tags/latest/prebuilt/wall_display.bin"
 
 update:
   - id: !extend update_std
-    source: "https://github.com/edwardtfn/NSPanel-Easy/raw/refs/tags/latest/prebuilt/wall_display.manifest.json"
+    source: "https://github.com/dndhm/NSPanel-Steezy/raw/refs/tags/latest/prebuilt/wall_display.manifest.json"
 ...

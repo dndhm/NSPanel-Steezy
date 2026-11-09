@@ -20,7 +20,7 @@ Configure every aspect of your panel through an intuitive Blueprint UI - no prog
 consider [buying me an ice cream][buymeacoffee] - it fuels the late-night coding sessions!* 🍦
 
 <!-- markdownlint-disable MD013 -->
-[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fraw.githubusercontent.com%2Fedwardtfn%2FNSPanel-Easy%2Frefs%2Ftags%2Flatest%2Fnspanel_easy_blueprint.yaml)
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fraw.githubusercontent.com%2Fdndhm%2FNSPanel-Steezy%2Frefs%2Ftags%2Flatest%2Fnspanel_easy_blueprint.yaml)
 <!-- markdownlint-enable MD013 -->
 
 ## Table of Contents
@@ -95,8 +95,8 @@ Quick links for the most common needs:
 - **Troubleshooting:** [TFT Upload](docs/tft_upload.md) ·
   [Compiling Errors](docs/error_compiling.md) ·
   [Panel Startup Issues](docs/error_initializing.md).
-- **Feature Requests:** [Open a new feature request](https://github.com/edwardtfn/NSPanel-Easy/labels/new%20feature%20request) to share your ideas.
-- **Changelog:** Every merged PR automatically generates a [GitHub Release](https://github.com/edwardtfn/NSPanel-Easy/releases) with detailed notes.
+- **Feature Requests:** [Open a new feature request](https://github.com/dndhm/NSPanel-Steezy/issues/new) to share your ideas.
+- **Changelog:** Every merged PR automatically generates a [GitHub Release](https://github.com/dndhm/NSPanel-Steezy/releases) with detailed notes.
 
 ## Features
 
@@ -279,9 +279,9 @@ The Blueprint provides a visual interface for defining what appears on your pane
 
 We welcome contributions of all kinds - code, documentation, translations, and testing.
 
-- **Pull Requests:** Open a PR against `main`. Each PR gets its own branch for development and review.
-- **Testing:** Browse [open Pull Requests](https://github.com/edwardtfn/NSPanel-Easy/pulls) to find features that need testing and feedback.
-- **Issues:** Report bugs or request features via [GitHub Issues](https://github.com/edwardtfn/NSPanel-Easy/issues).
+- **Pull Requests:** Open a PR against `dev`. Each PR gets its own branch for development and review.
+- **Testing:** Browse [open Pull Requests](https://github.com/dndhm/NSPanel-Steezy/pulls) to find features that need testing and feedback.
+- **Issues:** Report bugs or request features via [GitHub Issues](https://github.com/dndhm/NSPanel-Steezy/issues).
 - **Security:** Report vulnerabilities privately, as described in the [Security Policy](SECURITY.md). Never use public issues for them.
 - **Code of Conduct:** All community spaces, including Discord, follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 - **Discussions:** Join the conversation on [Discord][discord].
@@ -294,7 +294,7 @@ We welcome contributions of all kinds - code, documentation, translations, and t
 
 Whether you need help, want to share your setup, or just want to follow along - we'd love to have you.
 
-- **[GitHub Issues & Feature Requests](https://github.com/edwardtfn/NSPanel-Easy/issues)**
+- **[GitHub Issues & Feature Requests](https://github.com/dndhm/NSPanel-Steezy/issues)**
 - **[Discord Server][discord]**
 - **[How AI Is Used in This Project](docs/ai_usage.md)** - what is automated, how to identify AI-assisted posts, and how your data is handled
 
@@ -352,13 +352,13 @@ If NSPanel Easy has made your life easier,
 consider [buying me an ice cream][buymeacoffee] - every scoop keeps the project going! 🍦
 
 <!-- Link References -->
-[version-shield]: https://img.shields.io/github/v/release/edwardtfn/NSPanel-Easy?label=version
-[version]: https://github.com/edwardtfn/NSPanel-Easy/releases/latest
+[version-shield]: https://img.shields.io/github/v/release/dndhm/NSPanel-Steezy?label=version
+[version]: https://github.com/dndhm/NSPanel-Steezy/releases/latest
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/edwardtfn/NSPanel-Easy
-[commits]: https://github.com/edwardtfn/NSPanel-Easy/commits/main
+[commits-shield]: https://img.shields.io/github/commit-activity/y/dndhm/NSPanel-Steezy
+[commits]: https://github.com/dndhm/NSPanel-Steezy/commits/main
 
-[last-commit-shield]: https://img.shields.io/github/last-commit/edwardtfn/NSPanel-Easy
+[last-commit-shield]: https://img.shields.io/github/last-commit/dndhm/NSPanel-Steezy
 
 [platform-shield]: https://img.shields.io/badge/platform-Home%20Assistant%20&%20ESPHome-blue
 

@@ -89,7 +89,7 @@ In some cases you can also see duplicate entities on the device's page in Home A
 <!-- markdownlint-disable MD013 MD033 -->
 | Possible causes | Suggestions |
 | :-- | :-- |
-| You may have an older version of the blueprint installed or the blueprint isn't installed into your Home Assistant. | [Install the blueprint](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fraw.githubusercontent.com%2Fedwardtfn%2FNSPanel-Easy%2Frefs%2Ftags%2Flatest%2Fnspanel_easy_blueprint.yaml).<br>[Update the blueprint](howto.md#update-blueprint). |
+| You may have an older version of the blueprint installed or the blueprint isn't installed into your Home Assistant. | [Install the blueprint](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fraw.githubusercontent.com%2Fdndhm%2FNSPanel-Steezy%2Frefs%2Ftags%2Flatest%2Fnspanel_easy_blueprint.yaml).<br>[Update the blueprint](howto.md#update-blueprint). |
 | You don't have an automation created using the blueprint. | On Home Assistant, go to **Settings** --> **Automations & Scenes** --> **Blueprints** --> **NSPanel Configuration** --> **CREATE AUTOMATION** and follow the [instructions to setup your automation](blueprint.md).<br>**Attention!!** You need one automation per panel, if you have more than one panel set. |
 | Your panel is not selected in the automation. | Open the automation related to your panel and make sure the right device is set on the **NSPanel device** field. |
 | Your panel's connection to Home Assistant may have issues.<br>This could be from an invalid entity Id (e.g. ending with `_2`), or some action missing registration. | Reconnect the Panel's device to Home Assistant:<br>1. Go to **Settings** --> **Devices & services** --> **ESPHome**<br>2. Delete the device<br>3. Restart Home Assistant host<br>4. Go back to **Settings** --> **Devices & services**<br>5. Click **Add integration**<br>6. Select **ESPHome**<br>7. Enter your panel's hostname or IP address. |
@@ -97,7 +97,7 @@ In some cases you can also see duplicate entities on the device's page in Home A
 
 ## Additional Tips and Resources
 
-After troubleshooting, if issues persist, consult the [Issues](https://github.com/edwardtfn/NSPanel-Easy/issues) and feel free to create a new one asking for more personalized assistance.
+After troubleshooting, if issues persist, consult the [Issues](https://github.com/dndhm/NSPanel-Steezy/issues) and feel free to create a new one asking for more personalized assistance.
 
 Please share as much info as possible, like:
 

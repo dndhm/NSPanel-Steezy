@@ -25,7 +25,7 @@ Blueprint, ESPHome, and Nextion TFT, allowing users to access development (`dev`
 
 ## Finding Available Versions
 
-For available versions and branches, visit: [NSPanel Easy Tags](https://github.com/edwardtfn/NSPanel-Easy/tags).
+For available versions and branches, visit: [NSPanel Easy Tags](https://github.com/dndhm/NSPanel-Steezy/tags).
 Take note of the branch (`dev`, `beta`, or `main`) or version name exactly as it is published, as this is case-sensitive.
 
 > [!NOTE]
@@ -40,7 +40,7 @@ Take note of the branch (`dev`, `beta`, or `main`) or version name exactly as it
 - **main**: The default branch, typically containing the latest intended code (may be ahead of the latest tagged release).
 
 > [!NOTE]
-> When using `dev` or `beta`, report findings in the [issues](https://github.com/edwardtfn/NSPanel-Easy/issues) section, clearly stating the version.
+> When using `dev` or `beta`, report findings in the [issues](https://github.com/dndhm/NSPanel-Steezy/issues) section, clearly stating the version.
 >
 > **Please do not report issues related to old released versions.**
 
@@ -57,7 +57,7 @@ Take note of the branch (`dev`, `beta`, or `main`) or version name exactly as it
     ```yaml
     packages:
       remote_package:
-        url: https://github.com/edwardtfn/NSPanel-Easy
+        url: https://github.com/dndhm/NSPanel-Steezy
         ref: v2026.9.12
     ```
 
@@ -86,8 +86,8 @@ Take note of the branch (`dev`, `beta`, or `main`) or version name exactly as it
 ### For Blueprint Component
 
 1. Use your preferred code editor to edit the blueprint file under `/config/blueprints/automation/edwardtfn/nspanel_easy_blueprint.yaml`.
-2. Go to the GitHub repository and select the [branch (`main`, `beta` or `dev`)](https://github.com/edwardtfn/NSPanel-Easy/branches)
-or the [tag](https://github.com/edwardtfn/NSPanel-Easy/tags) (for previous versions) you want to use.
+2. Go to the GitHub repository and select the [branch (`main`, `beta` or `dev`)](https://github.com/dndhm/NSPanel-Steezy/branches)
+or the [tag](https://github.com/dndhm/NSPanel-Steezy/tags) (for previous versions) you want to use.
 3. Find the file `nspanel_easy_blueprint.yaml` in the root of the branch/tag, then click on it to open the file content visualization.
 4. Click the button "**Copy raw file**" in the top right area of the code box. This will copy the entire code to the clipboard.
 5. Go back to your code editor in Home Assistant and replace the entire old code by the one in your clipboard (typically CTRL+A & CTRL+V).
@@ -99,5 +99,5 @@ or the [tag](https://github.com/edwardtfn/NSPanel-Easy/tags) (for previous versi
 It's always a good idea to refer to the latest version of the project for current details.
 - For the most up-to-date information and updates,
 refer to the [project's documents](README.md)
-and check the [issues](https://github.com/edwardtfn/NSPanel-Easy/issues)
+and check the [issues](https://github.com/dndhm/NSPanel-Steezy/issues)
 sections on our GitHub repository.

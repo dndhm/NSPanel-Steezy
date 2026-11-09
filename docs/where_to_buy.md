@@ -55,8 +55,8 @@ See [NSPanel Models](nspanel_models.md) for a detailed comparison.
 ---
 
 *Know of another retailer, pre-flashed option, or service that should be listed here?
-Open an [issue](https://github.com/edwardtfn/NSPanel-Easy/issues) or
-[PR](https://github.com/edwardtfn/NSPanel-Easy/pulls) to get it added.*
+Open an [issue](https://github.com/dndhm/NSPanel-Steezy/issues) or
+[PR](https://github.com/dndhm/NSPanel-Steezy/pulls) to get it added.*
 
 ---
 

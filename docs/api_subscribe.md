@@ -109,7 +109,7 @@ Add the package to your device YAML:
 ```yaml
 packages:
   nspanel_easy:
-    url: https://github.com/edwardtfn/NSPanel-Easy/
+    url: https://github.com/dndhm/NSPanel-Steezy/
     ref: main
     files:
       - esphome/nspanel_esphome.yaml
