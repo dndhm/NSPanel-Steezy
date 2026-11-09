@@ -14,7 +14,7 @@ blueprint:
 
     This project enables comprehensive configuration of your NSPanel through a Blueprint featuring a user interface.
 
-  source_url: https://raw.githubusercontent.com/edwardtfn/NSPanel-Easy/refs/tags/latest/nspanel_easy_blueprint.yaml
+  source_url: https://raw.githubusercontent.com/dndhm/NSPanel-Steezy/refs/tags/latest/nspanel_easy_blueprint.yaml
   domain: automation
   homeassistant:
     min_version: 2026.10.0
@@ -11704,7 +11704,7 @@ actions:
                                           (climate_entity == "embedded_climate" or climate_entity.split(".") | count == 2)
                                         else "unknown"
                                       }}
-                                    hvac_modes: '{{ state_attr(climate_entity, "hvac_modes") if settings_entity_domain == "climate" }}'
+                                    hvac_modes: []
                                     friendly_name_raw: '{{ state_attr(climate_entity, "friendly_name") }}'
                                     friendly_name: >-
                                       {%- if
@@ -11817,12 +11817,12 @@ actions:
                                   then:
                                     # `hvac_modes` updates the variable of the enclosing sequence, read by the climate buttons
                                     - variables:
-                                        hvac_modes: '{{ state_attr(climate_entity, "hvac_modes") }}'
+                                        hvac_modes: []
                                     - action: 'esphome.{{ action_prefix }}_page_climate'
                                       # All values in a single template, so each copy of this block holds one template here
                                       # instead of one per value (issue #657)
                                       data: >-
-                                        {%- set supported_features = state_attr(climate_entity, "supported_features") | int(0) -%}
+                                        {%- set supported_features = state_attr(climate_entity, "supported_features") | int(0) | bitwise_and(3) -%}
                                         {%- set target_temp_step = state_attr(climate_entity, "target_temp_step") -%}
                                         {%- if not is_number(target_temp_step) -%}
                                           {%- set target_temp_step = state_attr(climate_entity, "target_temperature_step") -%}
@@ -11887,6 +11887,14 @@ actions:
                                     - repeat:
                                         for_each: '{{ page_climate.buttons.hvac_mode }}'
                                         sequence:
+                                          - action: 'esphome.{{ action_prefix }}_component_text_list'
+                                            data:
+                                              page: mem
+                                              id: command
+                                              txt_list:
+                                                - 'vis {{ repeat.item.component }},0'
+                                            continue_on_error: true
+                                          - *delay_default
                                           - condition: '{{ repeat.item.mode in hvac_modes }}'
                                           ### ICON Font Color ###
                                           - action: 'esphome.{{ action_prefix }}_component_color'
@@ -11925,16 +11933,7 @@ actions:
                                         preset_modes_attr: '{{ state_attr(climate_entity, "preset_modes") }}'
                                         current_preset_mode_raw: '{{ state_attr(climate_entity, "preset_mode") }}'
                                     - variables:
-                                        preset_modes_raw: >
-                                          {{
-                                            preset_modes_attr
-                                            if
-                                              state_attr(climate_entity, "supported_features") | int(0) | bitwise_and(16) > 0 and
-                                              preset_modes_attr is defined and
-                                              preset_modes_attr is iterable and
-                                              preset_modes_attr is not string
-                                            else []
-                                          }}
+                                        preset_modes_raw: []
                                         current_preset_mode: >-
                                           {{
                                             current_preset_mode_raw | trim
